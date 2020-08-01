@@ -1,0 +1,87 @@
+@import url("https://use.typekit.net/ije4ewe.css");
+
+  
+body {
+    font-family: "soleil", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    overflow: auto;
+}
+
+.header {
+    position: fixed;
+    z-index: 12000;
+    top: 0; 
+    left: 0;
+    padding: 5vh 3.5vw;
+}
+
+#work, #join, #menu {
+    display: inline-block;
+    padding: 0 1vw 5vh 1vw;
+}
+
+#work {
+    margin-left: 65vw;
+}
+
+.landing {
+    background-color: #0A004F;
+    height: 100vh;
+    padding: 5vh;
+}
+
+.landing-text{
+    position:fixed;
+    width: 60vw;
+    margin: 30vh 0 auto 13.5vw;
+    z-index: 1000;
+    color: white;
+    font-size: 8vh;
+}
+
+.portfolio {
+    background-color: #FFDA0A;
+    padding: 5vh;
+}
+
+.team {
+    background-color: #DB3069;
+    padding: 5vh;
+}
+
+.events {
+    background-color: #07A0C3;
+    padding: 5vh;
+}
+
+.footer {
+    background-color: #0A004F;
+    padding: 5vh;
+}
+
+/* CAROUSEL */
+#landing-carousel img {
+    width: 25vw;
+}
+
+#landing-carousel {
+    margin-top: 18vh;
+    margin-left: 10vw;
+}
+
+.right.carousel-control{
+    margin-top: 81vh;
+    margin-left: 34vw;
+}
+
+.glyphicon {
+    height: 15px;
+    width: auto;
+}
+
+/* .carousel-control{
+  background: none !important;
+  filter: none !important;
+  color: black;
+} */
