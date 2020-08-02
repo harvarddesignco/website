@@ -98,6 +98,14 @@ body {
     height: 15px;
     width: auto;
 }
+<<<<<<< HEAD
+.portfolio {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+=======
 
 .row {
     display: flex;
@@ -108,6 +116,7 @@ body {
 }
 
 
+>>>>>>> 7dcc899e1790bc9843eb6262a982cf588b58b197
 /* .carousel-control{
   background: none !important;
   filter: none !important;
