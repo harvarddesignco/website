@@ -80,6 +80,15 @@ body {
     width: auto;
 }
 
+.row {
+    display: flex;
+  }  
+
+.col-md-4 {
+    align-content: center;
+}
+
+
 /* .carousel-control{
   background: none !important;
   filter: none !important;
