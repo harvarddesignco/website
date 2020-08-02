@@ -25,14 +25,26 @@ body {
     margin-left: 65vw;
 }
 
-.landing {
+#side-menu {
+    /* position: fixed; */
+    transform: rotate(-90deg);
+}
+
+#side-menu a {
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+    padding-right: 5vh;
+}
+
+#landing {
     background-color: #0A004F;
     height: 100vh;
     padding: 5vh;
 }
 
 .landing-text{
-    position:fixed;
+    position: absolute;
     width: 60vw;
     margin: 30vh 0 auto 13.5vw;
     z-index: 1000;
@@ -40,24 +52,31 @@ body {
     font-size: 8vh;
 }
 
-.portfolio {
+#portfolio {
     background-color: #FFDA0A;
     padding: 5vh;
+    padding-left: 10vh;
+    min-height: 80vh;
 }
 
-.team {
+#team {
     background-color: #DB3069;
     padding: 5vh;
+    padding-left: 10vw;
+    min-height: 80vh;
 }
 
-.events {
+#events {
     background-color: #07A0C3;
     padding: 5vh;
+    padding-left: 10vw;
+    min-height: 80vh;
 }
 
-.footer {
+#footer {
     background-color: #0A004F;
     padding: 5vh;
+    padding-left: 10vw;
 }
 
 /* CAROUSEL */
