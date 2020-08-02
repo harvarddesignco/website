@@ -79,7 +79,12 @@ body {
     height: 15px;
     width: auto;
 }
-
+.portfolio {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
 /* .carousel-control{
   background: none !important;
   filter: none !important;
