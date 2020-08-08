@@ -1,0 +1,58 @@
+@import url("https://use.typekit.net/ije4ewe.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
+
+body{
+    background-color: #0A004F;
+    color: white;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 6.5vh;
+}
+
+h2 {
+    font-size: 3vh;
+    font-weight: 700;
+    color: #8c8dc2;
+    margin-bottom: 3vh;
+}
+
+p{
+    font-size: 2vh;
+    font-family: "freight-text-pro", serif;
+}
+
+.col-md-3{
+    padding-top: 19.5vh;
+    padding-right: 4vw;
+}
+
+.blurb {
+    padding-top: 17vh;
+    padding-left: 3vw;
+    padding-right: 2.5vw;
+    line-height: 3vh
+    /* text-align: justify; */
+}
+
+.links ul{
+    list-style: none;
+    padding: 0;
+    font-size: 2vh;
+    font-family: "freight-text-pro", serif;
+}
+
+.links ul a{
+    color: white;
+}
+
+
+.links ul a:hover{
+    color: #DB3069;
+    text-decoration: none !important;
+}
+
+.links li {
+    margin-bottom: 2vh;
+}
