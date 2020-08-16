@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 
@@ -62,10 +63,11 @@
 		<!-- Landing Page (Navy) -->
 		<div id="landing">
 			<div class="landing-text">
-				<b>Harvard Design <br>Collective</b><br>is a space for
+				<div class="name">Harvard Design <br>Collective</div>is a space for
 			</div>
 
-			<div id="text-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+			<!-- <div id="text-carousel" class="carousel slide carousel-fade" data-ride="carousel"> -->
+			<div id="text-carousel" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner"> 
 					<div class="carousel-item active"> 
 						illustrators
@@ -81,6 +83,8 @@
 
 			<hr>
 
+			<div id="period">.</div>
+
 			<div class="container-fluid">
 
 				<div class="row">
@@ -91,13 +95,13 @@
 							<!-- Sliding images starting here --> 
 							<div class="carousel-inner"> 
 								<div class="carousel-item active"> 
-									<img src="/images/clownkiss.jpg"> 
+									<img src="/images/landing-carousel/fig.png"> 
 								</div> 
 								<div class="carousel-item"> 
-									<img src="/images/chicken-feet.jpg">     
+									<img src="/images/jeans_far.jpg">     
 								</div> 
 								<div class="carousel-item"> 
-									<img src="/img/96a/96a-03.png">        
+									<img src="/images/We-Want-You.jpg">        
 								</div>
 							</div> 
 						</div>              
@@ -181,8 +185,16 @@
 
 
 		<!-- Events (Teal) -->
-		<div id="events">
-			ALKJDSHKLADHFA
+		<div id="events" style="align-items: center;">
+
+			<div class="events-text">
+				<h1>WHAT'S BREWING?</h1>
+				<p>Design never stops! Check out some of our latest events and features here.</p>
+			</div>
+			<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+			<iframe src="//lightwidget.com/widgets/a8b55aac68ee508c8a4053b81180ee83.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+
 		</div>
 
 	
@@ -194,7 +206,8 @@
 					<div class="col-md-3" style="padding-left: 7vw;">
 						<h5>ABOUT</h5>
 						<a href="#portfolio">Portfolio</a><br>
-						<a href="#team">People</a>
+						<a href="#team">People</a><br>
+						<a href="html/resources.html">Resources</a>
 					</div>
 
 					<div class="col-md-3">
@@ -203,7 +216,51 @@
 						<a href="#team">Request Work</a>
 					</div>
 
-					<div class="col-md-4"></div>
+					<div class="col-md-5">
+						<!-- Mailchimp Signup Form -->
+						<style type="text/css">
+							#mc_embed_signup{color: white; font-size:2.2vh; 
+								font-weight: 400; color: rgb(228, 228, 228);
+								margin-bottom: 6vh;}
+						</style>
+
+						<div id="mc_embed_signup">
+							<form action="https://gmail.us18.list-manage.com/subscribe/post?u=898203d58342206420137cce6&amp;id=e7cf198e21" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							    <div id="mc_embed_signup_scroll">
+									<h2 style=" color: #53547e;
+									line-height: 6vh;
+									font-weight: 700;
+									font-size: 2.3vh;">SUBSCRIBE TO THE HDC NEWSLETTER 🚀</h2>
+
+									<!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+									<div class="mc-field-group" style="font-size: 2vh">
+										<label for="mce-FULLNAME">Full Name  <span class="asterisk">*</span>
+										</label>
+										<input type="text" value="" name="FULLNAME" class="required" id="mce-FULLNAME" style="border-radius: 8px; border: 0;">
+									</div>
+
+									<div class="mc-field-group" style="font-size: 2vh;">
+										<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+										</label>
+										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="border-radius: 8px; border: 0;">
+									</div>
+									
+									<!-- <p><a href="https://us18.campaign-archive.com/home/?u=898203d58342206420137cce6&id=e7cf198e21" title="View previous campaigns">View previous campaigns.</a></p> -->
+									<div id="mce-responses" class="clear">
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									<div style="position: absolute; left: -5000px;" aria-hidden="true">
+										<input type="text" name="b_898203d58342206420137cce6_e7cf198e21" tabindex="-1" value="">
+									</div>
+									<div class="clear">
+										<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #DB3069; border-radius: 8px;">
+									</div>
+								</div>
+							</form>
+						</div>
+						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='FULLNAME';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+					</div>
 				</div>
 			</div>
 
