@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+
+
   
 body {
-    font-family: "neuzeit-grotesk", sans-serif;
-    font-weight: 400;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 500;
     margin: 0;
     overflow: visible;
 }
@@ -24,13 +26,14 @@ body {
 
 hr{
     position: absolute; 
-    width: 30vw; 
-    color: white; 
+    width: 42vw; 
+    background-color: white; 
     /* top: 0;  */
     left: 0;
+    border: none;
     height: 5px; 
-    margin: 80vh 20vw auto auto; 
-    z-index: 50000;
+    margin: 74vh auto auto 12vw;
+    z-index: 5000;
 }
 
 h1{
@@ -206,7 +209,10 @@ ul {
 }
 
 .overlay a{
+    font-family: "neue-haas-grotesk-display", sans-serif;
     color: white;
+    font-size: 9vh;
+    font-weight: 700; 
 }
 
 .overlay a:hover{
@@ -222,14 +228,14 @@ ul {
     z-index: 1000;
     top: 0;
     float: left;
-    padding-top: 81.5vh;
-    margin-left: -36.5vw;
+    padding-top: 79vh;
+    margin-left: -36vw;
 }
 
 #side-menu a {
     color: white;
     font-size: 2vw;
-    font-weight: 600;
+    font-weight: 500;
     padding-right: 5vh;
 }
 
@@ -243,16 +249,36 @@ ul {
     background-color: #0A004F;
     height: 100vh;
     padding: 5vh;
+    position: relative;
 }
 
 .landing-text{
     position: absolute;
     width: 60vw;
-    margin: 22vh 0 auto 13vw;
+    margin: 21vh 0 auto 11vw;
+    z-index: 1000;
+    color: rgb(157, 149, 179);
+    font-size: 10vh;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    /* font-family: "aktiv-grotesk", sans-serif; */
+    line-height: 12vh;
+    font-weight: 500;
+}
+
+.name {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+#period {
+    position: absolute;
+    margin: 62vh 0 auto 52vw;
     z-index: 1000;
     color: white;
     font-size: 10vh;
-    line-height: 12vh;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
 }
 
 #portfolio {
@@ -359,6 +385,26 @@ ul {
         opacity: 1;
         }
 
+.events-text{
+    color: white;
+    text-align: center;
+    padding: 0 10vw;
+    margin-bottom: 8vh;
+}
+
+.events-text h1{
+    font-weight: 800;
+    margin-bottom: 3vh;
+}
+
+.events-text p{
+    /* font-family: "neuzeit-grotesk", sans-serif; */
+    font-family: "freight-text-pro", serif;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+
 /* ------Footer------ */
 #footer {
     background-color: #0A004F;
@@ -379,9 +425,10 @@ ul {
 }
 
 #footer a{
-    color: white;
-    line-height: 4vh;
-    font-size: 2vh;
+    color: rgb(228, 228, 228);
+    line-height: 4.5vh;
+    font-size: 2.2vh;
+    font-weight: 400;
 }
 
 #footer a:hover {
@@ -390,27 +437,28 @@ ul {
 }
 
 #footer h5{
+    margin-top: 6vh;
     color: #53547e;
-    line-height: 6vh;
+    line-height: 7vh;
     font-weight: 700;
-    font-size: 2vh;
+    font-size: 2.3vh;
 }
 
 /* ------Carousel------ */
 #landing-carousel img {
     width: auto;
-    height: 65vh;
-    max-height: 65vh;
+    height: 56vh;
+    max-height: 56vh;
 }
 
 #landing-carousel {
-    margin-top: 16vh;
-    margin-left: 10vw;
+    margin-top: 22vh;
+    margin-left: 14vw;
 }
 
 .right.carousel-control{
-    margin-top: 85vh;
-    margin-left: 32.5vw;
+    margin-bottom: 0;
+    margin-left: 33vw;
 }
 
 .glyphicon {
@@ -427,10 +475,13 @@ ul {
     position: absolute;
     color: white;
     font-size: 8vh;
+    font-size: 10vh;
     z-index: 2000;
-    margin: 60vh 13.5vw;
+    margin: 57.5vh 11vw;
     font-family: "freight-text-pro", serif;
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 700;
     /* -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
