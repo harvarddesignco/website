@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/ije4ewe.css");
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
   
 body {
     font-family: "neuzeit-grotesk", sans-serif;
@@ -31,6 +31,23 @@ hr{
     height: 5px; 
     margin: 80vh 20vw auto auto; 
     z-index: 50000;
+}
+
+h1{
+    color: white;
+    line-height: 10vh;
+    font-weight: 600;
+    font-size: 6vh;
+    text-align: center;
+}
+
+p{
+    color: white;
+    line-height: 3.5vh;
+    font-weight: 400;
+    font-size: 3vh;
+    text-align: center;
+    font-family: "neuzeit-grotesk", sans-serif;
 }
 
 /* ------Header------ */
@@ -245,11 +262,36 @@ ul {
     min-height: 100vh;
 }
 
+/* ------Team / "The Squad"------ */
+
 #team {
     background-color: #DB3069;
     padding: 8vh;
     padding-left: 10vw;
     min-height: 100vh;
+}
+
+#team .profile-name {
+    position: absolute;
+    color: white;
+    margin-top: -3vh;
+
+}
+
+#team h2 {
+   
+    line-height: 2.8vh;
+    font-size: 6vh;
+    font-weight: 600;
+    padding-left: .7vw;
+
+}
+
+#team .pictures {
+
+    margin-left: 13vh;
+    margin-top: 13vh;
+
 }
 
 #events {
@@ -258,6 +300,64 @@ ul {
     padding-left: 10vw;
     min-height: 80vh;
 }
+
+#team .col-md-3 {
+    margin: auto 1.5vw;
+}
+
+
+/* ------Wendy code Yellow layer------ */
+
+    .pic {
+    opacity: 1;
+    transition: .5s ease;
+    z-index: 10;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .pic img {
+    z-index: 5;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .col-md-3:hover .pic img {
+    opacity: .1;
+    }
+    
+    .col-md-3:hover .pic{
+    background: #FFDA0A;
+    }
+
+/* ------Wendy code white title------ */
+
+        .title {
+        color: #0A004F;
+        font-size: 1.5vw;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 800;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 44%;
+        transform: translate(-50%, -20%);
+        -ms-transform: translate(-50%, -20%);
+        text-align: center;
+        }
+        
+        .category {
+        font-size: 1vw;
+        font-weight: 600;
+        /* font-family: embury-text, serif; */
+        }
+        
+        .col-md-3:hover .title {
+        opacity: 1;
+        }
 
 /* ------Footer------ */
 #footer {
