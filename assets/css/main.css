@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
 @import url("https://use.typekit.net/nlz3lzz.css");
-  
+
 body {
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 500;
@@ -13,8 +13,10 @@ body {
 .header {
     position: fixed;
     z-index: 12000;
-    top: 0; 
+    top: 0;
     left: 0;
+    width: 100vw;
+    white-space: nowrap;
     padding: 4vh 3.5vw;
 }
 
@@ -23,13 +25,13 @@ body {
 }
 
 hr{
-    position: absolute; 
-    width: 42vw; 
-    background-color: white; 
+    position: absolute;
+    width: 42vw;
+    background-color: white;
     /* top: 0;  */
     left: 0;
     border: none;
-    height: 5px; 
+    height: 5px;
     margin: 74vh auto auto 12vw;
     z-index: 5000;
 }
@@ -40,6 +42,17 @@ hr{
     /* opacity: .7; */
     text-shadow:0px 0px 1px black;
 }
+
+#logo {
+    max-width: 5vw;
+    min-width: 50px;
+}
+
+.header-buttons {
+    float: right;
+    margin-right: 6vh;
+}
+
 #work, #join, #nav-icon3 {
     display: inline-block;
     margin-bottom: 5vh;
@@ -48,7 +61,7 @@ hr{
 }
 
 #work {
-    margin-left: 60vw;
+    /* margin-left: 60vw; */
     background-color: #DB3069;
     border-radius: 8px;
     box-shadow: 1px 1px 3px #a1234d;
@@ -76,10 +89,9 @@ hr{
 
 /* ------Nav-icon------ */
 #nav-icon3{
-    width: 30px;
-    height: 18px;
+    width: 5vh;
     position: fixed;
-    margin: 2vh 2vw;
+    margin: 1vh 2vw 2vh 2vw;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -90,7 +102,7 @@ hr{
     transition: .5s ease-in-out;
     cursor: pointer;
   }
-  
+
 #nav-icon3 span{
     display: block;
     position: absolute;
@@ -113,35 +125,35 @@ hr{
   #nav-icon3 span:nth-child(1) {
     top: 0px;
   }
-  
+
   #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
     top: 9px;
   }
-  
+
   #nav-icon3 span:nth-child(4) {
     top: 18px;
   }
-  
+
   #nav-icon3.active span:nth-child(1) {
     top: 18px;
     width: 0%;
     left: 50%;
   }
-  
+
   #nav-icon3.active span:nth-child(2) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  
+
   #nav-icon3.active span:nth-child(3) {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
-  
+
   #nav-icon3.active span:nth-child(4) {
     top: 18px;
     width: 0%;
@@ -193,14 +205,14 @@ ul {
     font-family: "neue-haas-grotesk-display", sans-serif;
     color: white;
     font-size: 9vh;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .overlay a:hover{
     color: #DB3069;
     text-decoration: none !important;
 }
-      
+
 /* ------Side Menu------ */
 #side-menu {
     position: -webkit-sticky;
@@ -365,7 +377,7 @@ ul {
 
 .carousel-caption {
     font-size: 8vh;
-    
+
 }
 
 #text-carousel {
@@ -387,7 +399,7 @@ ul {
 
 .row {
     display: flex;
-  }  
+  }
 
 .col-md-4 {
     align-content: center;
@@ -425,7 +437,7 @@ ul {
   a:hover {
       opacity: 0.5;
   }
-  
+
 /*Portfolio Grid*/
 
 /* .carousel-control{
