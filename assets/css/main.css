@@ -28,7 +28,6 @@ hr{
     position: absolute;
     width: 42vw;
     background-color: white;
-    top: 0; 
     left: 0;
     border: none;
     height: 5px;
@@ -45,7 +44,7 @@ hr{
 
 #logo {
     max-width: 5vw;
-    min-width: 50px;
+    min-width: 55px;
 }
 
 .header-buttons {
@@ -61,7 +60,6 @@ hr{
 }
 
 #work {
-    /* margin-left: 60vw; */
     background-color: #DB3069;
     border-radius: 8px;
     box-shadow: 1px 1px 3px #a1234d;
