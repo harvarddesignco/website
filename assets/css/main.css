@@ -1,13 +1,23 @@
-@import url("https://use.typekit.net/ije4ewe.css");
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
 @import url("https://use.typekit.net/nlz3lzz.css");
   
 body {
     font-family: "neue-haas-grotesk-text", sans-serif;
+    font-family: "neuzeit-grotesk", sans-serif;
     font-weight: 500;
     margin: 0;
-    overflow: visible;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent; 
 }
 
 .header {
@@ -16,10 +26,6 @@ body {
     top: 0; 
     left: 0;
     padding: 4vh 3.5vw;
-}
-
-.content{
-    display: inline-block;
 }
 
 hr{
@@ -32,6 +38,23 @@ hr{
     height: 5px; 
     margin: 74vh auto auto 12vw;
     z-index: 5000;
+}
+
+h1{
+    font-size: 6vh;
+    font-weight: 900;
+    margin-bottom: 3vh;
+    /* font-family: "aktiv-grotesk", sans-serif; */
+    font-family: "neuzeit-grotesk", sans-serif;
+}
+
+p{
+    font-family: "neuzeit-grotesk", sans-serif;
+    /* font-family: "freight-text", serif; */
+    font-size: 2.8vh;
+    font-weight: 600;
+    line-height: 5.4vh;
+    transform: scale(1, 1.05);
 }
 
 /* ------Header------ */
@@ -52,6 +75,7 @@ hr{
     background-color: #DB3069;
     border-radius: 8px;
     box-shadow: 1px 1px 3px #a1234d;
+    font-size: 2.2vh;
 }
 
 #join {
@@ -60,6 +84,7 @@ hr{
     background-color: #FFDA0A;
     border-radius: 8px;
     box-shadow: 1px 1px 3px #bba008;
+    font-size: 2.2vh;
 }
 
 /* ------Social Icons------ */
@@ -115,11 +140,11 @@ hr{
   }
   
   #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-    top: 9px;
+    top: 12px;
   }
   
   #nav-icon3 span:nth-child(4) {
-    top: 18px;
+    top: 24px;
   }
   
   #nav-icon3.active span:nth-child(1) {
@@ -209,15 +234,16 @@ ul {
     z-index: 1000;
     top: 0;
     float: left;
-    padding-top: 79vh;
+    padding-top: 80.5vh;
     margin-left: -36vw;
 }
 
 #side-menu a {
+    font-family: "neue-haas-grotesk-display", sans-serif;
     color: white;
     font-size: 2vw;
-    font-weight: 500;
-    padding-right: 5vh;
+    font-weight: 600;
+    padding-right: 6vh;
 }
 
 #side-menu a:hover{
@@ -241,7 +267,6 @@ ul {
     color: rgb(157, 149, 179);
     font-size: 10vh;
     font-family: "neue-haas-grotesk-display", sans-serif;
-    /* font-family: "aktiv-grotesk", sans-serif; */
     line-height: 12vh;
     font-weight: 500;
 }
@@ -262,50 +287,32 @@ ul {
     font-weight: 500;
 }
 
-#portfolio {
-    background-color: #FFDA0A;
-    padding: 8vh;
-    padding-left: 11vw;
-    min-height: 100vh;
+.text .col-md-9{
+    padding-left: 5vw;
 }
 
+/* ------Team------ */
 #team {
     background-color: #DB3069;
-    padding: 8vh;
+    padding: 10vh 8vh;
     padding-left: 10vw;
     min-height: 100vh;
+    color: white;
 }
 
+/* ------What's Brewing------ */
 #events {
     background-color: #07A0C3;
-    padding: 8vh;
+    padding: 10vh 8vh;
     padding-left: 10vw;
     min-height: 80vh;
-}
-
-.events-text{
     color: white;
-    text-align: center;
-    padding: 0 10vw;
-    margin-bottom: 8vh;
-}
-
-.events-text h1{
-    font-weight: 800;
-    margin-bottom: 3vh;
-}
-
-.events-text p{
-    /* font-family: "neuzeit-grotesk", sans-serif; */
-    font-family: "freight-text-pro", serif;
-    font-size: 3vh;
-    font-weight: 500;
 }
 
 /* ------Footer------ */
 #footer {
     background-color: #0A004F;
-    padding: 5vh;
+    padding: 1vh;
     padding-left: 10vw;
     min-height: 25vh;
     position: relative;
@@ -393,38 +400,36 @@ ul {
     align-content: center;
 }
 
-/*Horizontal Scroll*/
-#container .box {
-    width:50vw;
-    height:100vh;
-    display:inline-block;
-    position:relative;
-  }
-#container .box > div {
+/* ------Portfolio------ */
+#portfolio {
     background-color: #FFDA0A;
-    padding: 8vh;
-    padding-left: 11vw;
-    min-height: 100vh;
-    padding-top:13vw;
+    padding: 10vh 0 8vh 8vh;
+    min-height: 80vh;
+    color: #0A004F;
+    padding-left: 10vw;
+}
+
+.text {
+    padding-bottom: 5vh;
+    padding-right: 8vh;
+}
+
+#scroll-container {
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space: nowrap;
+    align-items: center;
+}
+
+#scroll-container .box {
+    width:50vw;
+    height:60vh;
+    display:inline-block;
   }
-  #container {
-    overflow-y:scroll;
-    overflow-x:hidden;
-    transform: rotate(270deg) translateX(-100%);
-    transform-origin: top left;
-    position:absolute;
-    width:100vh;
-    height:100vw;
-  }
-  #container2 {
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-    white-space:nowrap;
-    font-size:0;
-  }
-  a:hover {
+
+#portfolio a:hover {
       opacity: 0.5;
-  }
+}
   
 /*Portfolio Grid*/
 
