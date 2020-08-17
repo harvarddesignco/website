@@ -9,9 +9,14 @@ carousel1.on('slide.bs.carousel', function(event) {
     carousel2.carousel(to);
 });
 
-// $("#text-carousel").carousel({
-//     interval: 3000
-// });
+$(document).ready(function() {
+
+    $("#scroll-container").mousewheel(function(event, delta) {
+       this.scrollLeft -= (delta);
+       event.preventDefault();
+    });
+ 
+ });
 
 $('#nav-icon3').click(function() {
     $(this).toggleClass('active');

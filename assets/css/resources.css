@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/ije4ewe.css");
+@import url("https://use.typekit.net/nlz3lzz.css");
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
 
 body{
@@ -9,6 +9,7 @@ body{
 h1 {
     font-weight: 800;
     font-size: 6.5vh;
+    font-family: "neue-haas-grotesk-text", sans-serif;
 }
 
 h2 {
@@ -21,6 +22,7 @@ h2 {
 p{
     font-size: 2vh;
     font-family: "freight-text-pro", serif;
+    line-height: 3vh;;
 }
 
 .col-md-3{
