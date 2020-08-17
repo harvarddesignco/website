@@ -28,7 +28,7 @@ hr{
     position: absolute;
     width: 42vw;
     background-color: white;
-    /* top: 0;  */
+    top: 0; 
     left: 0;
     border: none;
     height: 5px;
