@@ -1,33 +1,36 @@
-@import url("https://use.typekit.net/ije4ewe.css");
+@import url("https://use.typekit.net/nlz3lzz.css");
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
 
 body{
     background-color: #0A004F;
     color: white;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1 {
-    font-weight: 800;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 700;
     font-size: 6.5vh;
-    margin-left: 20px;
 }
 
+h2 {
+  line-height: 7vh;
+  font-size: 4vh;
+}
 
 p{
     font-size: 2vh;
     font-family: "freight-text-pro", serif;
 }
-.col-md-3{
-  padding-top: 19.5vh;
-  padding-right: 4vw;
-}
 
-.blurb {
-  padding-top: 17vh;
-  padding-left: 3vw;
-  padding-right: 2.5vw;
-  line-height: 3vh
+.grid {
+  max-width: 100%;
+  padding-left: 8vh;
+  margin: 10vh 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .row {
@@ -51,6 +54,44 @@ p{
   width: 100%;
 }
 
+/* ------Footer------ */
+#footer {
+  background-color: #0A004F;
+  padding: 1vh;
+  min-height: 25vh;
+  position: relative;
+}
+
+.copyright {
+  position: absolute;
+  color: #53547e;
+  bottom: 0;
+  right: 0;
+  margin: auto 2vw 2vh auto;
+  font-size: 2vh;
+  font-weight: 400;
+}
+
+#footer a{
+  color: rgb(228, 228, 228);
+  line-height: 4.5vh;
+  font-size: 2.2vh;
+  font-weight: 400;
+}
+
+#footer a:hover {
+  color: #DB3069;
+  text-decoration: none !important;
+}
+
+#footer h5{
+  margin-top: 6vh;
+  color: #53547e;
+  line-height: 7vh;
+  font-weight: 700;
+  font-size: 2.3vh;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -70,7 +111,8 @@ img:hover {
   opacity: 55%;
 }
 
-}
+
+
 
 
 
