@@ -443,3 +443,36 @@ ul {
   filter: none !important;
   color: black;
 } */
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  #landing {
+      padding: 20vh 0vw 0 10vw;
+  }
+  .landing-text {
+      margin: 20vh 0 0 0;
+      font-size: 5vh;
+      line-height: 7vh;
+  }
+  #text-carousel {
+      font-size: 5vh;
+      margin: 48vh 0vw;
+  }
+  hr {
+      width: 60vw;
+      height: 2px;
+      margin: 56vh auto auto 10vw;
+  }
+  #period {
+      margin: 50vh 0 auto 62vw;
+      font-size: 5vh;
+  }
+
+  .container-fluid {
+      padding-right: 0;
+  }
+  #landing-carousel {
+      margin-top: 0;
+      margin-left: 20vw;
+  }
+}
