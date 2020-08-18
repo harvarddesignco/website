@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
-<<<<<<< HEAD
 @import url("https://use.typekit.net/nlz3lzz.css");
 
-=======
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
-
-
-  
->>>>>>> 4dac2c459d65a1a9424dedf08fd31192ae7db454
 body {
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-family: "neuzeit-grotesk", sans-serif;
@@ -23,8 +16,8 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 0px; 
-    background: transparent; 
+    width: 0px;
+    background: transparent;
 }
 
 .header {
@@ -346,7 +339,7 @@ ul {
 }
 
 #team h2 {
-   
+
     line-height: 2.8vh;
     font-size: 6vh;
     font-weight: 600;
@@ -384,18 +377,18 @@ ul {
     height: 100%;
     object-fit: cover;
     }
-    
+
     .pic img {
     z-index: 5;
     /* width: 100%; */
     height: 100%;
     object-fit: cover;
     }
-    
+
     .col-md-3:hover .pic img {
     opacity: .1;
     }
-    
+
     .col-md-3:hover .pic{
     background: #FFDA0A;
     }
@@ -416,13 +409,13 @@ ul {
         -ms-transform: translate(-50%, -20%);
         text-align: center;
         }
-        
+
         .category {
         font-size: 1.3vw;
         font-weight: 400;
         font-family: "neuzeit-grotesk", sans-serif;
         }
-        
+
         .col-md-3:hover .title {
         opacity: 1;
         }
@@ -455,18 +448,18 @@ ul {
     height: 100%;
     object-fit: cover;
     }
-    
+
     .pic img {
     z-index: 5;
     /* width: 100%; */
     height: 100%;
     object-fit: cover;
     }
-    
+
     .col-md-3:hover .pic img {
     opacity: .1;
     }
-    
+
     .col-md-3:hover .pic{
     background: #FFDA0A;
     }
@@ -487,13 +480,13 @@ ul {
         -ms-transform: translate(-50%, -20%);
         text-align: center;
         }
-        
+
         .category {
         font-size: 1vw;
         font-weight: 600;
         /* font-family: embury-text, serif; */
         }
-        
+
         .col-md-3:hover .title {
         opacity: 1;
         }
@@ -623,13 +616,8 @@ ul {
 
 #portfolio a:hover {
       opacity: 0.5;
-<<<<<<< HEAD
-  }
-
-=======
 }
-  
->>>>>>> 4dac2c459d65a1a9424dedf08fd31192ae7db454
+
 /*Portfolio Grid*/
 
 /* .carousel-control{
