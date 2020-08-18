@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Libre+Baskerville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Caslon+Text:ital@0;1&display=swap');
+<<<<<<< HEAD
+@import url("https://use.typekit.net/nlz3lzz.css");
+
+=======
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 
 
   
+>>>>>>> 4dac2c459d65a1a9424dedf08fd31192ae7db454
 body {
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-family: "neuzeit-grotesk", sans-serif;
@@ -25,19 +30,20 @@ body {
 .header {
     position: fixed;
     z-index: 12000;
-    top: 0; 
+    top: 0;
     left: 0;
+    width: 100vw;
+    white-space: nowrap;
     padding: 4vh 3.5vw;
 }
 
 hr{
-    position: absolute; 
-    width: 42vw; 
-    background-color: white; 
-    /* top: 0;  */
+    position: absolute;
+    width: 42vw;
+    background-color: white;
     left: 0;
     border: none;
-    height: 5px; 
+    height: 5px;
     margin: 74vh auto auto 12vw;
     z-index: 5000;
 }
@@ -65,6 +71,17 @@ p{
     /* opacity: .7; */
     text-shadow:0px 0px 1px black;
 }
+
+#logo {
+    max-width: 5vw;
+    min-width: 55px;
+}
+
+.header-buttons {
+    float: right;
+    margin-right: 6vh;
+}
+
 #work, #join, #nav-icon3 {
     display: inline-block;
     margin-bottom: 5vh;
@@ -73,7 +90,6 @@ p{
 }
 
 #work {
-    margin-left: 60vw;
     background-color: #DB3069;
     border-radius: 8px;
     box-shadow: 1px 1px 3px #a1234d;
@@ -103,10 +119,9 @@ p{
 
 /* ------Nav-icon------ */
 #nav-icon3{
-    width: 30px;
-    height: 18px;
+    width: 5vh;
     position: fixed;
-    margin: 2vh 2vw;
+    margin: 1vh 2vw 2vh 2vw;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -117,7 +132,7 @@ p{
     transition: .5s ease-in-out;
     cursor: pointer;
   }
-  
+
 #nav-icon3 span{
     display: block;
     position: absolute;
@@ -140,35 +155,35 @@ p{
   #nav-icon3 span:nth-child(1) {
     top: 0px;
   }
-  
+
   #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
     top: 12px;
   }
-  
+
   #nav-icon3 span:nth-child(4) {
     top: 24px;
   }
-  
+
   #nav-icon3.active span:nth-child(1) {
     top: 18px;
     width: 0%;
     left: 50%;
   }
-  
+
   #nav-icon3.active span:nth-child(2) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  
+
   #nav-icon3.active span:nth-child(3) {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
-  
+
   #nav-icon3.active span:nth-child(4) {
     top: 18px;
     width: 0%;
@@ -220,14 +235,14 @@ ul {
     font-family: "neue-haas-grotesk-display", sans-serif;
     color: white;
     font-size: 9vh;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .overlay a:hover{
     color: #DB3069;
     text-decoration: none !important;
 }
-      
+
 /* ------Side Menu------ */
 #side-menu {
     position: -webkit-sticky;
@@ -551,7 +566,7 @@ ul {
 
 .carousel-caption {
     font-size: 8vh;
-    
+
 }
 
 #text-carousel {
@@ -573,7 +588,7 @@ ul {
 
 .row {
     display: flex;
-  }  
+  }
 
 .col-md-4 {
     align-content: center;
@@ -608,8 +623,13 @@ ul {
 
 #portfolio a:hover {
       opacity: 0.5;
+<<<<<<< HEAD
+  }
+
+=======
 }
   
+>>>>>>> 4dac2c459d65a1a9424dedf08fd31192ae7db454
 /*Portfolio Grid*/
 
 /* .carousel-control{
@@ -617,3 +637,36 @@ ul {
   filter: none !important;
   color: black;
 } */
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  #landing {
+      padding: 20vh 0vw 0 10vw;
+  }
+  .landing-text {
+      margin: 20vh 0 0 0;
+      font-size: 5vh;
+      line-height: 7vh;
+  }
+  #text-carousel {
+      font-size: 5vh;
+      margin: 48vh 0vw;
+  }
+  hr {
+      width: 60vw;
+      height: 2px;
+      margin: 56vh auto auto 10vw;
+  }
+  #period {
+      margin: 50vh 0 auto 62vw;
+      font-size: 5vh;
+  }
+
+  .container-fluid {
+      padding-right: 0;
+  }
+  #landing-carousel {
+      margin-top: 0;
+      margin-left: 20vw;
+  }
+}
