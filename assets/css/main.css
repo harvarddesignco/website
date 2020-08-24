@@ -613,10 +613,13 @@ ul {
 }
 
 #scroll-container .box {
-    width:43vw;
-    height:60vh;
+    width: 40vw;
     display:inline-block;
-  }
+}
+
+#scroll-container img {
+    width: 450px;
+}
 
 #portfolio a:hover {
       opacity: 0.5;
@@ -632,32 +635,35 @@ ul {
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
+
+  /* landing page */
   #landing {
       padding: 20vh 0vw 0 12.5vw;
   }
   .landing-text {
       width: 75vw;
       margin: 8vh 0 0 0;
-      font-size: 6vh;
-      line-height: 7vh;
+      font-size: 10vw;
+      line-height: 12vw;
   }
   #text-carousel {
-      font-size: 6vh;
-      margin: 29vh 0;
+      font-size: 10vw;
+      margin: 50vw 0;
   }
   hr {
       width: 72vw;
       height: 3px;
-      margin: 39vh auto auto 12vw;
+      margin: 66vw auto auto 12vw;
   }
   #period {
-      margin: 32vh 0 auto 73vw;
-      font-size: 6vh;
+      margin: 54vw 0 auto 73vw;
+      font-size: 10vw;
   }
-  .container-fluid {
-      padding-right: 0;
-  }
+  /* hide landing photo carousel */
   #landing-carousel {
+      visibility: hidden;
+  }
+  .right.carousel-control {
       visibility: hidden;
   }
   /* remove left side social media buttons on mobile */
@@ -666,10 +672,35 @@ ul {
   }
   #mobile-social {
      display: inline-block;
-     margin: 45vh 12.5vw 0;
+     margin: 75vw 12.5vw 0;
   }
   #mobile-social img {
       width: 5vw;
       margin: 0 5vw;
+  }
+
+  /* disable side menu on mobile */
+  #side-menu {
+      display: none;
+  }
+
+  /* work page */
+  h1 {
+      text-align: center;
+  }
+  #scroll-container {
+      overflow-x: hidden;
+      overflow-y: hidden;
+      white-space: normal;
+      max-width: 100vw;
+      margin-right: 10vw;
+  }
+  #scroll-container .box {
+      max-width: 80vw;
+      height: auto;
+      display: inline;
+  }
+  #scroll-container img {
+      width: 80vw;
   }
 }
