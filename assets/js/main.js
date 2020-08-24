@@ -15,7 +15,7 @@ $(document).ready(function() {
        this.scrollLeft -= (delta);
        event.preventDefault();
     });
- 
+
  });
 
 $('#nav-icon3').click(function() {
@@ -26,7 +26,7 @@ $('#nav-icon3').click(function() {
 // function openNav() {
 //     $("#overlay").style.width = "100%";
 //   }
-  
+
 //   function closeNav() {
 //     $("#overlay").style.width = "0%";
 //   }

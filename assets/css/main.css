@@ -110,6 +110,10 @@ p{
     padding-bottom: 3vh;
 }
 
+#mobile-social {
+   display: none;
+}
+
 /* ------Nav-icon------ */
 #nav-icon3{
     width: 5vh;
@@ -629,32 +633,43 @@ ul {
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   #landing {
-      padding: 20vh 0vw 0 10vw;
+      padding: 20vh 0vw 0 12.5vw;
   }
   .landing-text {
-      margin: 20vh 0 0 0;
-      font-size: 5vh;
+      width: 75vw;
+      margin: 8vh 0 0 0;
+      font-size: 6vh;
       line-height: 7vh;
   }
   #text-carousel {
-      font-size: 5vh;
-      margin: 48vh 0vw;
+      font-size: 6vh;
+      margin: 29vh 0;
   }
   hr {
-      width: 60vw;
-      height: 2px;
-      margin: 56vh auto auto 10vw;
+      width: 72vw;
+      height: 3px;
+      margin: 39vh auto auto 12vw;
   }
   #period {
-      margin: 50vh 0 auto 62vw;
-      font-size: 5vh;
+      margin: 32vh 0 auto 73vw;
+      font-size: 6vh;
   }
-
   .container-fluid {
       padding-right: 0;
   }
   #landing-carousel {
-      margin-top: 0;
-      margin-left: 20vw;
+      visibility: hidden;
+  }
+  /* remove left side social media buttons on mobile */
+  #social {
+      display: none;
+  }
+  #mobile-social {
+     display: inline-block;
+     margin: 45vh 12.5vw 0;
+  }
+  #mobile-social img {
+      width: 5vw;
+      margin: 0 5vw;
   }
 }
