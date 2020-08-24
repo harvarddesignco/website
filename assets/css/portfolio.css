@@ -38,7 +38,7 @@ p{
   display: flex;
   flex-wrap: wrap;
   padding: 0 30px;
-  
+
 }
 
 /* Create four equal columns that sits next to each other */
@@ -111,10 +111,20 @@ img:hover {
   opacity: 55%;
 }
 
-
-
-
-
-
-
-
+@media screen and (max-width: 500px) {
+    h1 {
+        align: center;
+        width: 100vw;
+    }
+    .container-fluid {
+        margin-top: 15vh;
+        padding: 0;
+    }
+    .row {
+        margin: 0 10vw 0 10vw;
+        padding: 0;
+    }
+    .column {
+        padding: 0;
+    }
+}

@@ -635,6 +635,10 @@ ul {
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
+  /* overall */
+  h1 {
+      text-align: center;
+  }
 
   /* landing page */
   #landing {
@@ -684,16 +688,18 @@ ul {
       display: none;
   }
 
-  /* work page */
-  h1 {
-      text-align: center;
+  /* portfolio page */
+  #portfolio {
+      padding: 10vh 10vw;
+  }
+  #portfolio .text {
+      padding: 0 0 5vh 0;
   }
   #scroll-container {
       overflow-x: hidden;
       overflow-y: hidden;
       white-space: normal;
       max-width: 100vw;
-      margin-right: 10vw;
   }
   #scroll-container .box {
       max-width: 80vw;
@@ -702,5 +708,35 @@ ul {
   }
   #scroll-container img {
       width: 80vw;
+  }
+
+  /* team page */
+  #team {
+      padding: 10vh 10vw;
+  }
+  #team .text {
+      padding: 0 0 8vh 0;
+  }
+  #team .pictures {
+      margin: 0;
+  }
+  #team .col-md-3 {
+      margin: 0 0 10vh 0;
+  }
+
+  /* events page */
+  #events {
+      padding: 10vh 10vw;
+  }
+  #events .text {
+      padding: 0 0 5vh 0;
+  }
+
+  /* footer */
+  #footer {
+      padding: 10vh 10vw;
+  }
+  #footer .container-fluid .col-md-3 {
+      padding: 0 7vw;
   }
 }
