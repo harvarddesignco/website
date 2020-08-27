@@ -29,7 +29,6 @@ p{
   max-width: 100%;
   padding-left: 8vh;
   margin: 10vh 0;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -110,6 +109,8 @@ p{
 img:hover {
   opacity: 55%;
 }
+
+
 
 
 
