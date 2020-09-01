@@ -390,21 +390,21 @@ ul {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -20%);
-        -ms-transform: translate(-50%, -20%);
+        transform: translate(-50%, -40%);
+        -ms-transform: translate(-50%, -40%);
         text-align: center;
         }
 
         .category {
         font-size: 1.3vw;
-        font-weight: 400;
+        font-weight: 600;
         font-family: "neuzeit-grotesk", sans-serif;
+        text-align: center;
         }
 
         .col-md-3:hover .title {
         opacity: 1;
         }
-
 
 
 /* ------Events------ */
@@ -451,7 +451,7 @@ ul {
 
 /* ------Wendy code white title------ */
 
-        .title {
+        /* .title {
         color: #0A004F;
         font-size: 1.5vw;
         font-family: 'Libre Caslon Display', serif;
@@ -464,12 +464,12 @@ ul {
         transform: translate(-50%, -20%);
         -ms-transform: translate(-50%, -20%);
         text-align: center;
-        }
+        } */
 
-        .category {
+        /* .category {
         font-size: 1vw;
         font-weight: 600;
-        }
+        } */
 
         .col-md-3:hover .title {
         opacity: 1;
