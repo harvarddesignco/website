@@ -82,12 +82,17 @@ p{
       margin: 50vh 0 auto 62vw;
       font-size: 5vh;
   }
-
   .container-fluid {
-      padding-right: 0;
+      padding: 0 10vw;
   }
   #landing-carousel {
       margin-top: 0;
       margin-left: 20vw;
+  }
+  h1 {
+      text-align: left;
+  }
+  .col-md-3 {
+    padding-top: 10vh;
   }
 }

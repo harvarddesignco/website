@@ -110,6 +110,10 @@ p{
     padding-bottom: 3vh;
 }
 
+#mobile-social {
+   display: none;
+}
+
 /* ------Nav-icon------ */
 #nav-icon3{
     width: 5vh;
@@ -328,6 +332,11 @@ ul {
 
 .profile-grid{
     margin-left: 8vw;
+}
+
+#team .row.pictures.bottom {
+    margin-top: 12vh;
+    margin-bottom: 10vh;
 }
 
 #team .pictures {
@@ -587,7 +596,11 @@ ul {
     width:43vw;
     height:65vh;
     display:inline-block;
-  }
+}
+
+#scroll-container img {
+    width: 450px;
+}
 
 #portfolio a:hover {
       opacity: 0.1;
@@ -625,33 +638,116 @@ ul {
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
-  #landing {
-      padding: 20vh 0vw 0 10vw;
-  }
-  .landing-text {
-      margin: 20vh 0 0 0;
-      font-size: 5vh;
-      line-height: 7vh;
-  }
-  #text-carousel {
-      font-size: 5vh;
-      margin: 48vh 0vw;
-  }
-  hr {
-      width: 60vw;
-      height: 2px;
-      margin: 56vh auto auto 10vw;
-  }
-  #period {
-      margin: 50vh 0 auto 62vw;
-      font-size: 5vh;
+  /* overall */
+  h1 {
+      text-align: center;
   }
 
-  .container-fluid {
-      padding-right: 0;
+  /* landing page */
+  #landing {
+      padding: 20vh 0vw 0 12.5vw;
   }
+  .landing-text {
+      width: 75vw;
+      margin: 8vh 0 0 0;
+      font-size: 10vw;
+      line-height: 12vw;
+  }
+  #text-carousel {
+      font-size: 10vw;
+      margin: 50vw 0;
+  }
+  hr {
+      width: 72vw;
+      height: 3px;
+      margin: 66vw auto auto 12vw;
+  }
+  #period {
+      margin: 54vw 0 auto 73vw;
+      font-size: 10vw;
+  }
+  /* hide landing photo carousel */
   #landing-carousel {
-      margin-top: 0;
-      margin-left: 20vw;
+      visibility: hidden;
+  }
+  .right.carousel-control {
+      visibility: hidden;
+  }
+  /* remove left side social media buttons on mobile */
+  #social {
+      display: none;
+  }
+  #mobile-social {
+     display: inline-block;
+     margin: 75vw 12.5vw 0;
+  }
+  #mobile-social img {
+      width: 5vw;
+      margin: 0 5vw;
+  }
+
+  /* disable side menu on mobile */
+  #side-menu {
+      display: none;
+  }
+
+  /* portfolio page */
+  #portfolio {
+      padding: 10vh 10vw;
+  }
+  #portfolio .text {
+      padding: 0 0 5vh 0;
+  }
+  #scroll-container {
+      overflow-x: hidden;
+      overflow-y: hidden;
+      white-space: normal;
+      max-width: 100vw;
+  }
+  #scroll-container .box {
+      height: 45vh;
+  }
+  #scroll-container img {
+      width: 80vw;
+  }
+
+  #scroll-container .work-info {
+      visibility: hidden;
+  }
+
+  /* team page */
+  #team {
+      padding: 10vh 10vw;
+  }
+  #team .text {
+      padding: 0 0 8vh 0;
+  }
+  #team .pictures {
+      margin: 0;
+  }
+  #team .col-md-3 {
+      margin: 0 0 10vh 0;
+  }
+  .profile-grid {
+    margin-left: 0;
+  }
+  #team .row.pictures.bottom {
+    margin: 0;
+  }
+
+  /* events page */
+  #events {
+      padding: 10vh 10vw;
+  }
+  #events .text {
+      padding: 0 0 5vh 0;
+  }
+
+  /* footer */
+  #footer {
+      padding: 10vh 10vw;
+  }
+  #footer .container-fluid .col-md-3 {
+      padding: 0 7vw;
   }
 }
