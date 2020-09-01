@@ -310,52 +310,37 @@ ul {
 #team {
     background-color: #DB3069;
     padding: 10vh 8vh;
-    padding-left: 10vw;
     min-height: 100vh;
     color: white;
+    overflow: hidden;
 }
 
-.team-text{
-    color: white;
-    text-align: center;
-    padding: 0 10vw;
-    margin-bottom: 8vh;
-}
-
-
-.team-text h1{
-    font-weight: 800;
-    margin-bottom: 3vh;
-}
-
-.team-text p{
-    /* font-family: "neuzeit-grotesk", sans-serif; */
-    font-family: "freight-text-pro", serif;
-    font-size: 3vh;
-    font-weight: 500;
+#team .text{
+    padding-left: 10vw;
 }
 
 #team .profile-name {
     position: absolute;
-    color: white;
-    margin-top: -3vh;
-
+    margin-top: -4.1vh;
 }
 
 #team h2 {
-
-    line-height: 2.8vh;
-    font-size: 6vh;
+    line-height: 3.8vh;
+    font-size: 7vh;
     font-weight: 600;
-    padding-left: .7vw;
+}
 
+.profile-grid{
+    margin-left: 8vw;
+}
+
+#team .row.pictures.bottom {
+    margin-top: 12vh;
+    margin-bottom: 10vh;
 }
 
 #team .pictures {
-
-    margin-left: 13vh;
-    margin-top: 13vh;
-
+    margin-top: 5vh;
 }
 
 #events {
@@ -363,10 +348,6 @@ ul {
     padding: 10vh 8vh;
     padding-left: 10vw;
     min-height: 80vh;
-}
-
-#team .col-md-3 {
-    margin: auto 1.5vw;
 }
 
 
@@ -488,7 +469,6 @@ ul {
         .category {
         font-size: 1vw;
         font-weight: 600;
-        /* font-family: embury-text, serif; */
         }
 
         .col-md-3:hover .title {
@@ -613,7 +593,8 @@ ul {
 }
 
 #scroll-container .box {
-    width: 40vw;
+    width:43vw;
+    height:65vh;
     display:inline-block;
 }
 
@@ -622,7 +603,29 @@ ul {
 }
 
 #portfolio a:hover {
-      opacity: 0.5;
+      opacity: 0.1;
+}
+
+.work-info {
+    color: #0A004F;
+    font-size: 1.5vw;
+    font-weight: 800;
+    transition: .5s ease;
+    opacity: 0;
+    /* position: absolute;
+    z-index: 2000; */
+    text-align: center;
+    margin-top: -33vh;
+    margin-left: -8vw;
+    /* top: 10%; */
+    /* left: 44%; */
+    /* transform: translate(-50%, -20%);
+    -ms-transform: translate(-50%, -20%); */
+
+    }
+
+.box:hover .work-info {
+    opacity: 1;
 }
 
 /*Portfolio Grid*/
@@ -702,12 +705,14 @@ ul {
       max-width: 100vw;
   }
   #scroll-container .box {
-      max-width: 80vw;
-      height: auto;
-      display: inline;
+      height: 45vh;
   }
   #scroll-container img {
       width: 80vw;
+  }
+
+  #scroll-container .work-info {
+      visibility: hidden;
   }
 
   /* team page */
@@ -722,6 +727,12 @@ ul {
   }
   #team .col-md-3 {
       margin: 0 0 10vh 0;
+  }
+  .profile-grid {
+    margin-left: 0;
+  }
+  #team .row.pictures.bottom {
+    margin: 0;
   }
 
   /* events page */

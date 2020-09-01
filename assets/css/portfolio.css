@@ -13,6 +13,7 @@ h1 {
   font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 700;
     font-size: 6.5vh;
+    padding-right: 1.5vw
 }
 
 h2 {
@@ -29,7 +30,6 @@ p{
   max-width: 100%;
   padding-left: 8vh;
   margin: 10vh 0;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
