@@ -51,7 +51,6 @@ h1{
 
 p{
     font-family: "neuzeit-grotesk", sans-serif;
-    /* font-family: "freight-text", serif; */
     font-size: 2.8vh;
     font-weight: 600;
     line-height: 5.4vh;
@@ -241,15 +240,32 @@ ul {
 }
 
 /* ------Side Menu------ */
-#side-menu {
-    position: -webkit-sticky;
+/* #side-menu {
     position: sticky;
-    transform: rotate(-90deg);
     z-index: 1000;
     top: 0;
     float: left;
-    padding-top: 80.5vh;
-    margin-left: -36vw;
+    padding-top: 68vh;
+    margin-left: 5.7vw;
+  }
+  
+  #side-menu-text{
+    transform: rotate(-90deg);
+    transform-origin: 0 100%;
+    white-space: nowrap;
+     
+  }*/
+
+#side-menu {
+    position: sticky;
+    transform: rotate(-90deg);
+    transform-origin: 0 100%;
+    white-space: nowrap;
+    z-index: 5000;
+    top: 0;
+    float: left;
+    padding-top: 68vh;
+    margin-left: 5.7vw;
 }
 
 #side-menu a {
