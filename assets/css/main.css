@@ -248,12 +248,12 @@ ul {
     padding-top: 68vh;
     margin-left: 5.7vw;
   }
-  
+
   #side-menu-text{
     transform: rotate(-90deg);
     transform-origin: 0 100%;
     white-space: nowrap;
-     
+
   }*/
 
 #side-menu {
@@ -441,9 +441,9 @@ ul {
 }
 
 #social_team img{
+    width: 1.5vw;
     margin: 3vh 0.5vw 0 0.5vw;
 }
-
 
 
 /* ------Events------ */
@@ -765,13 +765,17 @@ ul {
       margin: 0;
   }
   #team .col-md-3 {
-      margin: 0 0 10vh 0;
+      margin: 0 0 17vh 0;
   }
   .profile-grid {
     margin-left: 0;
   }
   #team .row.pictures.bottom {
     margin: 0;
+  }
+  #social_team img{
+      width: 5vw;
+      margin: 3vh 2vw 0 2vw;
   }
 
   /* events page */
