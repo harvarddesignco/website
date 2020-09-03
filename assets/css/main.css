@@ -337,7 +337,10 @@ ul {
 
 #team .profile-name {
     position: absolute;
+    color: white;
     margin-top: -4.1vh;
+    text-align:left;
+
 }
 
 #team h2 {
@@ -364,6 +367,11 @@ ul {
     padding: 10vh 8vh;
     padding-left: 10vw;
     min-height: 80vh;
+}
+
+#team .col-md-3 {
+    margin: auto 1.5vw;
+    text-align: center;
 }
 
 
@@ -421,6 +429,21 @@ ul {
         .col-md-3:hover .title {
         opacity: 1;
         }
+
+/* ------Social_Team icons------ */
+
+#social_team{
+    position: relative;
+    z-index: 400;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+}
+
+#social_team img{
+    margin: 3vh 0.5vw 0 0.5vw;
+}
+
 
 
 /* ------Events------ */
