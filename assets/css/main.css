@@ -335,6 +335,7 @@ ul {
     position: absolute;
     color: white;
     margin-top: -3vh;
+    text-align:left;
 
 }
 
@@ -363,6 +364,7 @@ ul {
 
 #team .col-md-3 {
     margin: auto 1.5vw;
+    text-align: center;
 }
 
 
@@ -419,6 +421,21 @@ ul {
         .col-md-3:hover .title {
         opacity: 1;
         }
+
+/* ------Social_Team icons------ */
+
+#social_team{
+    position: relative;
+    z-index: 400;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+}
+
+#social_team img{
+    margin: 3vh 0.5vw 0 0.5vw;
+}
+
 
 
 
