@@ -33,16 +33,6 @@ img {
     object-fit: cover;
 }
 
-a {
-    font-style: italic;
-    color: #0A004F;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #07A0C3;
-}
-
 b {
     color: #FFDA0A;
 }
@@ -88,6 +78,16 @@ b {
 
 .desc:hover {
   opacity: 100%;
+}
+
+.desc a {
+  font-style: italic;
+  color: #0A004F;
+}
+
+.desc a:hover {
+  text-decoration: none;
+  color: #07A0C3;
 }
 
 .blurb {
