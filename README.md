@@ -1,4 +1,4 @@
-# HDC
+# HDC Website
 Harvard Design Collective
 
 COLORS
